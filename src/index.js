@@ -1,6 +1,6 @@
 //entrada de dados
 const nome = prompt("Digite seu nome de Herói");
-const experiencia = prompt("Digite a quantidade de experiência do Herói");
+const experiencia = parseInt(prompt("Digite a quantidade de experiência do Herói"));
 
 //determinar nível do herói
 let nivel;
